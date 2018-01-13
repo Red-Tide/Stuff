@@ -1,0 +1,26 @@
+@startuml
+
+skinparam {
+shadowing false 
+StateAttributeFontName DejaVu Sans Condensed
+StateAttributeFontSize 10
+ArrowThickness 1.25
+}
+
+skinparam state {
+BackgroundColor Grey
+ArrowColor Black
+BorderColor Grey
+FontName DejaVu Sans Condensed 
+FontStyle Bold
+FontSize 12
+FontColor White
+ArrowFontName DejaVu Serif Condensed
+ArrowFontSize 8
+ArrowFontStyle Italic
+}
+[*] -> State1 : Start
+State1->State2 : Event
+State2 -> [*] : End
+
+@enduml

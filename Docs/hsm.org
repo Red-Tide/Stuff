@@ -16,8 +16,8 @@ Note do not confuse HSM described by some authors as Hierachical State Charts wi
 
 Fundamentally State Modeling can be divided into two basic elements: States and Events.
 
-#+CAPTION A simple example of a state diagram.
-#+NAME Figure 1
+#+CAPTION: A simple example of a state diagram.
+#+NAME: Figure 1
 [[./images/hsm1.png]]
 
 |----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------|

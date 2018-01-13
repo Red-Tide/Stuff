@@ -1,0 +1,15 @@
+* Graphs
+
+** G = (V, E)
+   V: A finite non empty set of vertices
+   E: A set of pairs of these vertices called edges
+
+*** Undirected Graphs
+    Graphs where all pairs of vertices are undirected that is to say that
+    (u,v) == (v,u) for all edges
+
+*** Digraphs
+    Directed Graphs are graphs where all the pairs of edges are directed that is to say that
+    (u,v) != (v,u) for all edges
+
+    We would say that in this case if 

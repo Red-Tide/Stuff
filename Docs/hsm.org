@@ -1,0 +1,50 @@
+* Hierachical State Modeling
+
+HSM is based on the standard finite state machine, but greatly revised and expanded to model more complex 
+behaviour.
+
+Classes in UML model a systems static structure (i.e. objects and their relationships at a single moment in time).
+Hierachical State Modeling models dynamic changes to the objects and their relationships over time in response to
+stimuli.
+
+A Hierachical State Model consists of multiple state diagrams; one for each class for which you need to model temporal
+behaviour.
+
+Note do not confuse HSM described by some authors as Hierachical State Charts with Activity Diagrams/Flow Charts. 
+
+** Basic State Modeling 
+
+Fundamentally State Modeling can be divided into two basic elements: States and Events.
+
+|----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------|
+| *States*                                                                                     | *Events*                                                                          |
+|----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------|
+| Abstraction of values and links of an object; grouped together according to gross behaviour. | Stimuli that transition between states.                                           |
+|----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------|
+| Occur over an interval of time.                                                              | Are realized instantaneously at a point in time.                                  |
+|----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------|
+| Often described as a duration of a condition or some verb ending with -ing.                  | Usually described as the onset of some condition and/or a verb in the past tense. |
+| ex: *Powered*, *Dialing*                                                                     | ex: /button_pressed/, /temperature_drops_below_0/                                 |
+|----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------|
+
+
+*** Events 
+
+Events in UML are sometimes ambiguous as they can be taken to mean either type of event class or an event occurance/instance of an event. 
+
+Event Class: Keyboard Press
+Event Occurance: Keyboard Press at 12:52am
+
+External vs Internal 
+Synchronous vs Asynchronous
+
+**** Signal Events
+**** Change Events
+**** Time Events
+**** Call Events
+
+
+*** States
+
+**** Entry Effects
+**** Exit Effects
